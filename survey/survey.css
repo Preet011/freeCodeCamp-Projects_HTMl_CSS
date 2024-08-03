@@ -1,0 +1,30 @@
+body{background-color:rgb(172, 172, 224);
+    padding:4;
+    margin-left:12;
+    font-family:papyrus;}
+    
+      h1,p{text-align:center;
+    font-family:papyrus;
+    color:rgb(95, 95, 155)}
+    
+    label{display:block;
+    margin:0,5rem 0}
+    
+    .inline{
+    display:inline-block;
+    width:unset;
+    margin:6}
+    
+    button{display:block;
+    width:200;
+    margin-left:130;margin-top:12}
+    
+    form{width:94vw;max-width:500px;
+    min-width:300px;
+    margin:0 auto;
+    padding-right:78;}
+    
+    
+    fieldet{border:2px;}
+    input,textarea,select{font-family:papyrus;background-color:#bdbdc2;
+    border:1px }

@@ -1,0 +1,51 @@
+
+body{font-family:Monaco;
+    font-size:1.5rem;
+    text-align:center;
+    line-height:1.5;
+    margin:60px;
+    background-color:rgb(236, 229, 229);}
+    
+    #main{font-family:Georgia;
+    font-size:14;
+    text-align:auto;
+    border-radius:5px;
+    }
+    #img-caption {
+      margin: 15px  0 15px 0;
+    }
+    #img-div{padding: 30px ;
+      margin: 10;padding-bottom:9;
+    background-color:rgb(252, 247, 247);
+    }
+    img{
+      max-width:100%;
+      display: block;
+      height: auto;
+      margin:0 auto;}
+     
+    
+    ul{text-align:left;
+    line-height:2}
+    
+    section{text-align:auto;
+    margin-top:34;}
+    
+    
+    
+    
+    
+    
+    h3{margin-top:14;}
+    
+    
+    
+    
+    a{color:blue;
+    }
+    a:hover{color:black;}
+    a:visited{color:brown}
+    li {
+      margin: 5px 0;
+    }
+    

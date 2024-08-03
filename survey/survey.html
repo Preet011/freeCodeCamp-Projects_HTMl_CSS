@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Follow Umm Survey</title>
+  <link rel="stylesheet" href="survey.css" />
+  
+</head>
+
+<body>
+  <h1 id="title">Follow Up Survey </h1>
+  <p id="description"> Please fill out this form with the required information</p>
+  
+  <form id ="survey-form">
+   <fieldset >
+      
+     <label id="name-label">Name <input id="name" type="text"placeholder="First Name"required/>  </label></label>
+      <label id="email-label">Email<input id="email" placeholder="email@address.com" type="email" required/></label>
+    <label id="number-label">  Age<input id="number"placeholder="xx"type="number"min="18" max="100"/> 
+     </label></fieldset><hr><fieldset>
+<label for="service-used"> When did you use our service?  <input id="service-used"type="date" min="01-01-2020"  max="01-02-2024"/>
+</label></fieldset> <fieldset>
+<label > Name of product <select id="dropdown">
+  <option value="1">Hair Cream</option><option value="2">Conditioner</option><option value="3"> Hair Mask</option><option value="4">Shampoo</option>
+</select>
+</label></fieldset>
+       <fieldset>
+       Did our product meet your expectations?<label for="yes">  <input value="yes" id="yes"type="radio"name="expectations"class="inline"checked>Yes</label><label for="no"><input value="no"id="no"type="radio"name="expectations"class="inline"/>No </label></fieldset><fieldset><label>
+  What aspect of the product or service were you least satisfied by?  <label><input class="inline"value="quality"name="least-satisfying"type="checkbox" checked/> Quality </label>
+     
+  <label> <input class="inline"value="price"name="least-satisfying" type="checkbox"/>Price</label> 
+ <label><input class="inline" value="service" name="least-satisfying" type="checkbox"/>Customer service</label> </fieldset><hr><fieldset>
+  Additional comments:<label for="comments"> <textarea id="comments"rows="3"cols="60"/></textarea></label> 
+  </fieldset>  
+
+<button id="submit" >Submit </button>
+
+  </form>
+</body>
+
+  </html>
